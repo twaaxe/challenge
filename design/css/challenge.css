@@ -8,7 +8,12 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top : 8%;
+
+}
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body{
@@ -196,16 +201,13 @@ ul{
 
 
 /*
-
             FOOTER
-
 */
 
 footer{
     background: no-repeat left url("../../images/bg-pattern-footer-desktop.svg"), no-repeat left url("../../images/logo.svg") ;
     padding-top: 100px ;
     background-color: transparent;
-    
 }
 
 
@@ -214,10 +216,8 @@ footer > .row > .col-sm > ul > li > a{
 }
 
 
-footer > .row > .col-sm > ul > li > a:first-child{
-    
+footer > .row > .col-sm > ul > li > a:first-child{   
     color : hsl(273, 4%, 51%)   ;
-    
 }
 
 
