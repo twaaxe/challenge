@@ -66,6 +66,17 @@ li > a:hover {
 
  }
 
+
+
+
+ .whiteBckGndn{
+    background: no-repeat url("../../images/bg-pattern-intro-left-desktop.svg");
+    background-position: 0% -25%;    
+    padding: 5%;
+    
+
+}
+
 /*
 
             SECTION1
@@ -74,9 +85,11 @@ li > a:hover {
 
 .section1{
     background: no-repeat right url("../../images/bg-pattern-intro-right-desktop.svg");
-    
+    background-size: 25% ;
+    background-position: relative;
 
 }
+
 
 .purpleBckGnd{
     background-color: hsl(256, 26%, 20%);
@@ -109,8 +122,8 @@ li > a:hover {
 
 .whiteBckGndn{
     background: no-repeat url("../../images/bg-pattern-intro-left-desktop.svg");
+    background-position: 0% -40%;    
     padding: 5%;
-    
 
 }
 
@@ -118,22 +131,27 @@ li > a:hover {
     padding-top: 200px ;
 }
 
+
 .section2 > .row > .col-sm > img {
 
     margin: 4% auto;
 }
 
+
 .section2 > .row > .col-sm > img > h2 {
     margin: 6% auto;
 }
 
+
 .section2 >.purpleBckGnd{
     background: no-repeat right url("../../images/bg-pattern-how-we-work-desktop.svg");
     background-color: hsl(256, 26%, 20%) ;
+    background-size: 25%;
     margin: 0 auto;
     padding: 1% 10%;
     margin: 6% auto 12% auto;
 }
+
 
 .section2  > .purpleBckGnd > .col-sm > h1 {
 
@@ -145,10 +163,7 @@ li > a:hover {
     width: 30%;
     margin: auto;
     
-    
-    
 }
-
 
 /*
 
